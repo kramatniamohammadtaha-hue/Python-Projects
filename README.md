@@ -1,6 +1,6 @@
 # 🐍 Python Projects
 
-A collection of Python projects built to practice programming, problem-solving, GUI development, and Python fundamentals.
+A collection of Python projects built to practice programming, problem-solving, GUI development, API integration, and Python fundamentals.
 
 Each project is organized in its own folder with its own source code and README.
 
@@ -13,6 +13,7 @@ Each project is organized in its own folder with its own source code and README.
 | 01 | 🧮 [BMI Calculator](./bmi-calculator) | A modern bilingual desktop BMI calculator with English and Persian support. | Python, Tkinter, JSON |
 | 02 | 🧮 [ProCalc — Professional Calculator](./calculator) | A modern scientific calculator with advanced mathematical functions, history, memory, themes, and bilingual support. | Python, Tkinter, AST, JSON |
 | 03 | 🔥 [BMR Calculator](./bmr-calculator) | A bilingual BMR and daily calorie calculator with activity-level estimation and RTL/LTR support. | Python, Tkinter, JSON |
+| 04 | 🌤️ [Weather App](./weather-app) | A modern real-time weather application with city search, current conditions, and a 5-day forecast. | Python, CustomTkinter, Requests, REST API |
 
 ---
 
@@ -95,20 +96,50 @@ A modern bilingual desktop application for calculating **Basal Metabolic Rate (B
 
 ---
 
+## 🌤️ 04. Weather App
+
+A modern weather application built with **CustomTkinter** and real weather APIs.
+
+### ✨ Features
+
+- 🌤️ Real-time weather
+- 🔎 City search
+- 🌡️ Current temperature
+- 🤔 Feels-like temperature
+- 💧 Humidity
+- 💨 Wind speed
+- 🧭 Pressure
+- 👁️ Visibility
+- 🌅 Sunrise
+- 📅 5-day forecast
+- 🇬🇧 English / 🇮🇷 Persian
+- 🌙 CustomTkinter dark UI
+- 🌐 REST API integration
+- ⚡ Background API requests
+- 🚫 No API key required
+
+[View Weather App →](./weather-app)
+
+---
+
 ## 🛠️ Technologies
 
 The projects in this repository use technologies and concepts such as:
 
 - Python 3
 - Tkinter
+- CustomTkinter
 - JSON
 - AST
+- Requests
+- REST APIs
 - Object-Oriented Programming
 - Functions & Methods
 - Exception Handling
 - File Handling
 - GUI Development
 - Event Handling
+- Threading
 - Mathematical Operations
 
 ---
@@ -127,6 +158,8 @@ I'm focusing on:
 - JSON data
 - Exception handling
 - Event-driven programming
+- REST API integration
+- Threading and background tasks
 - Building complete applications
 - Writing cleaner and more organized code
 
@@ -137,12 +170,12 @@ I'm focusing on:
 - [x] BMI Calculator
 - [x] ProCalc — Professional Calculator
 - [x] BMR Calculator
+- [x] Weather App
 - [ ] To-Do List
 - [ ] Quiz App
-- [ ] Weather App
 - [ ] More Python projects...
 
-> This list will be updated as new projects are added.
+> From this project onward, GUI applications use **CustomTkinter** where appropriate.
 
 ---
 
