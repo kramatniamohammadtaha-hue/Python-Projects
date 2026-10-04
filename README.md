@@ -1,181 +1,200 @@
 # 🐍 Python Projects
 
-A collection of Python projects built to practice programming, problem-solving, GUI development, API integration, and Python fundamentals.
+A collection of my Python projects, built to improve my programming skills through practical applications.
 
-Each project is organized in its own folder with its own source code and README.
-
----
-
-## 📂 Projects
-
-| # | Project | Description | Technologies |
-|---|---|---|---|
-| 01 | 🧮 [BMI Calculator](./bmi-calculator) | A modern bilingual desktop BMI calculator with English and Persian support. | Python, Tkinter, JSON |
-| 02 | 🧮 [ProCalc — Professional Calculator](./calculator) | A modern scientific calculator with advanced mathematical functions, history, memory, themes, and bilingual support. | Python, Tkinter, AST, JSON |
-| 03 | 🔥 [BMR Calculator](./bmr-calculator) | A bilingual BMR and daily calorie calculator with activity-level estimation and RTL/LTR support. | Python, Tkinter, JSON |
-| 04 | 🌤️ [Weather App](./weather-app) | A modern real-time weather application with city search, current conditions, and a 5-day forecast. | Python, CustomTkinter, Requests, REST API |
+This repository contains desktop GUI applications, API-based projects, data processing tools, and other practical Python projects.
 
 ---
 
-## 🧮 01. BMI Calculator
+## 🚀 Projects
 
-A modern bilingual desktop BMI Calculator built with **Python and Tkinter**.
-
-### ✨ Features
-
-- 🇬🇧 English / 🇮🇷 Persian interface
-- 🔄 Language switching
-- 🌐 RTL / LTR support
-- 💾 Saved language preference
-- 🧮 BMI calculation
-- 📊 BMI category detection
-- ⚖️ Healthy weight range
-- ✅ Input validation
-- ⚠️ Bilingual error messages
-- 🔄 Reset functionality
-- ⌨️ Keyboard shortcuts
-- 🌙 Modern dark UI
-- 🧱 Object-Oriented Programming
-
-[View BMI Calculator →](./bmi-calculator)
-
----
-
-## 🧮 02. ProCalc — Professional Calculator
-
-A powerful desktop calculator designed to go beyond basic arithmetic.
-
-### ✨ Features
-
-- ➕ Basic arithmetic
-- 🧪 Scientific calculations
-- 📐 Trigonometric functions
-- 🔄 Inverse trigonometric functions
-- √ Square root
-- `x²` Powers
-- `!` Factorial
-- `%` Percentage
-- π Pi and e constants
-- 🔢 DEG / RAD modes
-- 🧠 Memory functions
-- 🕘 Calculation history
-- 🇬🇧 English / 🇮🇷 Persian
-- 🌙 Dark / ☀️ Light theme
-- ⌨️ Keyboard support
-- 📋 Copy results
-- 💾 Persistent settings
-- 🛡️ Safe expression evaluation with AST
-- 🧱 Object-Oriented Programming
-- 🚫 No external packages
-
-[View ProCalc →](./calculator)
+| #  | Project                               | Description                                    | Technologies                              | Status      |
+| -- | ------------------------------------- | ---------------------------------------------- | ----------------------------------------- | ----------- |
+| 01 | 🧮 [BMI Calculator](./bmi-calculator) | Bilingual BMI calculator with a modern GUI     | Python, Tkinter, OOP                      | ✅ Completed |
+| 02 | 🧮 [ProCalc](./calculator)            | Professional scientific calculator             | Python, Tkinter, AST, OOP                 | ✅ Completed |
+| 03 | ⚖️ [BMR Calculator](./bmr-calculator) | BMR & TDEE calculator with activity levels     | Python, Tkinter, OOP                      | ✅ Completed |
+| 04 | 🌤️ [Weather App](./weather-app)      | Real-time weather and 5-day forecast           | Python, CustomTkinter, Requests, REST API | ✅ Completed |
+| 05 | ✅ [TaskFlow — To-Do App](./todo-app)  | Advanced bilingual task management application | Python, CustomTkinter, JSON, OOP          | ✅ Completed |
+| 06 | 🧠 Quiz App                           | Interactive bilingual quiz application         | Python, CustomTkinter, JSON               | 🔜 Planned  |
+| 07 | 🔐 Password Generator                 | Secure password generation tool                | Python, CustomTkinter                     | 🔜 Planned  |
+| 08 | 💰 Expense Tracker                    | Personal expense and finance tracker           | Python, CustomTkinter, JSON               | 🔜 Planned  |
+| 09 | 📁 File Organizer                     | Automatic file organization utility            | Python, pathlib, shutil                   | 🔜 Planned  |
+| 10 | 📊 CSV Analyzer                       | CSV data analysis and visualization tool       | Python, Pandas, Matplotlib                | 🔜 Planned  |
+| 11 | 💱 Currency Converter                 | Currency conversion application                | Python, CustomTkinter, API                | 🔜 Planned  |
+| 12 | 📰 News App                           | Real-time news reader                          | Python, CustomTkinter, REST API           | 🔜 Planned  |
+| 13 | ⏱️ Productivity Timer                 | Pomodoro and productivity timer                | Python, CustomTkinter                     | 🔜 Planned  |
+| 14 | 🗄️ SQLite Database Manager           | GUI database management application            | Python, CustomTkinter, SQLite             | 🔜 Planned  |
+| 15 | 🎓 Student Management                 | Student information management system          | Python, CustomTkinter, SQLite             | 🔜 Planned  |
+| 16 | 📦 Inventory Management               | Inventory and stock management system          | Python, CustomTkinter, SQLite             | 🔜 Planned  |
+| 17 | 🌐 Website Monitor                    | Website availability monitoring tool           | Python, Requests, REST API                | 🔜 Planned  |
+| 18 | 💬 Chat Application                   | Client-server chat application                 | Python, Sockets, Networking               | 🔜 Planned  |
+| 19 | 🔌 REST API                           | Backend API project                            | Python, Flask, REST API                   | 🔜 Planned  |
+| 20 | 🤖 AI Chatbot                         | AI-powered chatbot application                 | Python, APIs, AI                          | 🔜 Planned  |
 
 ---
 
-## 🔥 03. BMR Calculator
+## ✨ Current Features
 
-A modern bilingual desktop application for calculating **Basal Metabolic Rate (BMR)** and estimating daily calorie needs.
+The completed projects currently cover:
 
-### ✨ Features
-
-- 🔥 BMR calculation
-- 🍽️ Estimated daily calories
-- 🇬🇧 English / 🇮🇷 Persian
-- 🌐 RTL / LTR support
-- 👤 Male / Female selection
-- 📊 Activity level selection
-- 🧮 Mifflin–St Jeor formula
-- ✅ Input validation
-- 💾 Saved language preference
-- ⌨️ Keyboard shortcuts
-- 🌙 Modern dark UI
-- 🧱 Object-Oriented Programming
-- 🚫 No external packages
-
-[View BMR Calculator →](./bmr-calculator)
-
----
-
-## 🌤️ 04. Weather App
-
-A modern weather application built with **CustomTkinter** and real weather APIs.
-
-### ✨ Features
-
-- 🌤️ Real-time weather
-- 🔎 City search
-- 🌡️ Current temperature
-- 🤔 Feels-like temperature
-- 💧 Humidity
-- 💨 Wind speed
-- 🧭 Pressure
-- 👁️ Visibility
-- 🌅 Sunrise
-- 📅 5-day forecast
-- 🇬🇧 English / 🇮🇷 Persian
-- 🌙 CustomTkinter dark UI
-- 🌐 REST API integration
-- ⚡ Background API requests
-- 🚫 No API key required
-
-[View Weather App →](./weather-app)
+* 🐍 Python fundamentals
+* 🧱 Object-Oriented Programming
+* 🖥️ Desktop GUI development
+* 🎨 CustomTkinter
+* 🪟 Tkinter
+* 🌐 REST APIs
+* 🔗 HTTP requests
+* 📄 JSON
+* 💾 Persistent application data
+* 🔍 Search, filtering and sorting
+* 📊 Data processing
+* 🧵 Threading
+* 🛡️ Input validation
+* ⚠️ Exception handling
+* 🧮 Mathematical calculations
+* 🔐 Safe expression parsing
+* 🌙 Dark / Light Mode
+* 🇮🇷 Persian / 🇬🇧 English interfaces
 
 ---
 
 ## 🛠️ Technologies
 
-The projects in this repository use technologies and concepts such as:
+### Core Python
 
-- Python 3
-- Tkinter
-- CustomTkinter
-- JSON
-- AST
-- Requests
-- REST APIs
-- Object-Oriented Programming
-- Functions & Methods
-- Exception Handling
-- File Handling
-- GUI Development
-- Event Handling
-- Threading
-- Mathematical Operations
+* Python 3
+* Functions
+* Classes
+* OOP
+* Exception Handling
+* File Handling
+* JSON
+* Date & Time
+* Regular Expressions
 
----
+### GUI
 
-## 🎯 Learning Goals
+* Tkinter
+* CustomTkinter
 
-This repository is part of my journey to improve my Python development skills through practical projects.
+### APIs & Networking
 
-I'm focusing on:
+* Requests
+* REST APIs
+* HTTP
+* JSON APIs
+* Threading
 
-- Python fundamentals
-- Problem solving
-- Object-Oriented Programming
-- GUI development
-- Working with files
-- JSON data
-- Exception handling
-- Event-driven programming
-- REST API integration
-- Threading and background tasks
-- Building complete applications
-- Writing cleaner and more organized code
+### Data
+
+* JSON
+* SQLite
+* Pandas
+* CSV
+
+### Visualization
+
+* Matplotlib
 
 ---
 
-## 📈 Project Progress
+## 📂 Repository Structure
 
-- [x] BMI Calculator
-- [x] ProCalc — Professional Calculator
-- [x] BMR Calculator
-- [x] Weather App
-- [ ] To-Do List
-- [ ] Quiz App
-- [ ] More Python projects...
+```text
+Python-Projects/
+│
+├── bmi-calculator/
+│   ├── BMI.py
+│   └── README.md
+│
+├── calculator/
+│   ├── calculator.py
+│   └── README.md
+│
+├── bmr-calculator/
+│   ├── BMR.py
+│   └── README.md
+│
+├── weather-app/
+│   ├── weather.py
+│   └── README.md
+│
+├── todo-app/
+│   ├── todo.py
+│   └── README.md
+│
+└── README.md
+```
 
-> From this project onward, GUI applications use **CustomTkinter** where appropriate.
+---
+
+## 🎯 Learning Roadmap
+
+The projects are designed to gradually increase in difficulty.
+
+```text
+Python Basics
+      ↓
+Functions & Modules
+      ↓
+Object-Oriented Programming
+      ↓
+Tkinter / CustomTkinter
+      ↓
+JSON & File Handling
+      ↓
+REST APIs
+      ↓
+Threading
+      ↓
+SQLite Database
+      ↓
+Networking
+      ↓
+REST API Development
+      ↓
+AI Applications
+```
+
+---
+
+## 📈 Progress
+
+### Completed
+
+* [x] BMI Calculator
+* [x] Professional Calculator
+* [x] BMR Calculator
+* [x] Weather App
+* [x] TaskFlow — To-Do App
+
+### Next
+
+* [ ] Quiz App
+* [ ] Password Generator
+* [ ] Expense Tracker
+* [ ] File Organizer
+* [ ] CSV Analyzer
+* [ ] Currency Converter
+* [ ] News App
+* [ ] Productivity Timer
+* [ ] SQLite Database Manager
+* [ ] Student Management
+* [ ] Inventory Management
+* [ ] Website Monitor
+* [ ] Chat Application
+* [ ] REST API
+* [ ] AI Chatbot
+
+---
+
+## 💡 Project Philosophy
+
+The goal of this repository is not just to write small pieces of code.
+
+Each project is designed to solve a practical problem while introducing new programming concepts and gradually moving toward larger and more professional applications.
+
+The difficulty increases step by step, from simple Python GUI applications to APIs, databases, networking, and AI.
 
 ---
 
@@ -183,8 +202,8 @@ I'm focusing on:
 
 **KeramatNia**
 
-Learning Python and building projects step by step.
+Python Developer & Programmer
 
 ---
 
-⭐ More projects coming soon.
+⭐ If you find this repository useful, consider giving it a star!
