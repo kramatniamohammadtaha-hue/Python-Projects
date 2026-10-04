@@ -1,8 +1,8 @@
 # 🐍 Python Projects
 
-A collection of my Python projects, built to improve my programming skills through practical applications.
+A collection of Python projects built to improve programming skills through practical applications.
 
-This repository contains desktop GUI applications, API-based projects, data processing tools, and other practical Python projects.
+Each project focuses on learning new concepts and gradually building more professional applications.
 
 ---
 
@@ -15,7 +15,7 @@ This repository contains desktop GUI applications, API-based projects, data proc
 | 03 | ⚖️ [BMR Calculator](./bmr-calculator) | BMR & TDEE calculator with activity levels     | Python, Tkinter, OOP                      | ✅ Completed |
 | 04 | 🌤️ [Weather App](./weather-app)      | Real-time weather and 5-day forecast           | Python, CustomTkinter, Requests, REST API | ✅ Completed |
 | 05 | ✅ [TaskFlow — To-Do App](./todo-app)  | Advanced bilingual task management application | Python, CustomTkinter, JSON, OOP          | ✅ Completed |
-| 06 | 🧠 Quiz App                           | Interactive bilingual quiz application         | Python, CustomTkinter, JSON               | 🔜 Planned  |
+| 06 | 🧠 [QuizFlow — Quiz App](./quiz-app)  | Professional bilingual quiz application        | Python, CustomTkinter, JSON, OOP          | ✅ Completed |
 | 07 | 🔐 Password Generator                 | Secure password generation tool                | Python, CustomTkinter                     | 🔜 Planned  |
 | 08 | 💰 Expense Tracker                    | Personal expense and finance tracker           | Python, CustomTkinter, JSON               | 🔜 Planned  |
 | 09 | 📁 File Organizer                     | Automatic file organization utility            | Python, pathlib, shutil                   | 🔜 Planned  |
@@ -33,21 +33,19 @@ This repository contains desktop GUI applications, API-based projects, data proc
 
 ---
 
-## ✨ Current Features
+## ✨ Current Skills
 
 The completed projects currently cover:
 
 * 🐍 Python fundamentals
 * 🧱 Object-Oriented Programming
 * 🖥️ Desktop GUI development
-* 🎨 CustomTkinter
-* 🪟 Tkinter
+* 🎨 Tkinter & CustomTkinter
 * 🌐 REST APIs
 * 🔗 HTTP requests
 * 📄 JSON
 * 💾 Persistent application data
 * 🔍 Search, filtering and sorting
-* 📊 Data processing
 * 🧵 Threading
 * 🛡️ Input validation
 * ⚠️ Exception handling
@@ -55,6 +53,8 @@ The completed projects currently cover:
 * 🔐 Safe expression parsing
 * 🌙 Dark / Light Mode
 * 🇮🇷 Persian / 🇬🇧 English interfaces
+* ⏱️ Timers and GUI events
+* 🎯 Randomization and quiz systems
 
 ---
 
@@ -89,8 +89,8 @@ The completed projects currently cover:
 
 * JSON
 * SQLite
-* Pandas
 * CSV
+* Pandas
 
 ### Visualization
 
@@ -123,14 +123,17 @@ Python-Projects/
 │   ├── todo.py
 │   └── README.md
 │
+├── quiz-app/
+│   ├── quiz.py
+│   ├── questions.json
+│   └── README.md
+│
 └── README.md
 ```
 
 ---
 
 ## 🎯 Learning Roadmap
-
-The projects are designed to gradually increase in difficulty.
 
 ```text
 Python Basics
@@ -167,10 +170,10 @@ AI Applications
 * [x] BMR Calculator
 * [x] Weather App
 * [x] TaskFlow — To-Do App
+* [x] QuizFlow — Quiz App
 
-### Next
+### Next Projects
 
-* [ ] Quiz App
 * [ ] Password Generator
 * [ ] Expense Tracker
 * [ ] File Organizer
